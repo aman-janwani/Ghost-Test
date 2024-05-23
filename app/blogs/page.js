@@ -17,7 +17,7 @@ const page = () => {
   }, []);
 
   return (
-    <main className="min-h-screen bg-white max-w-[110rem] mx-auto">
+    <main className="min-h-screen bg-black max-w-[110rem] mx-auto">
       <div className="px-5  md:px-0">
         <div className="flex flex-col gap-10">
         <RecentArticles data={posts.slice(0, 3)} />

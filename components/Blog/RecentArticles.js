@@ -5,7 +5,7 @@ const RecentArticles = ({data}) => {
   return (
     <div className='px-[4.38rem] flex flex-col gap-[1.25rem]'>
         <div className=''>
-            <p className='text-[2rem] font-semibold text-[#212721]'>Recent articles</p>
+            <p className='text-[2rem] font-semibold text-[#fff]'>Recent articles</p>
         </div>
         <div className='flex flex-wrap gap-[1.25rem]'>
             {data.map((article) => {
